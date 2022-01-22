@@ -2,7 +2,7 @@ var jsdom = require("jsdom")
   , async = require("async")
   , fs = require('fs')
   , request = require('request')
-  , stringify = require("csv-stringify")
+  , {stringify} = require("csv-stringify")
   , countries  = require('country-data').countries;
 
 const { JSDOM } = jsdom;

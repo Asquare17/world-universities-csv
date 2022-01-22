@@ -1,17 +1,17 @@
 {
   "name": "univcc-scrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Endika Gutiérrez <me@endika.net>",
   "description": "univ.cc scrapper",
   "dependencies": {
     "async": "*",
     "country-data": "*",
-    "csv-stringify": "^1.0.4",
-    "jsdom": "11.2.0",
-    "request": "^2.82.0"
+    "csv-stringify": "^6.0.5",
+    "jsdom": "^19.0.0",
+    "request": "^2.88.0"
   },
   "license": "MIT",
   "engines": {
-    "node": ">=8.0"
+    "node": ">=14.18.0"
   }
 }
